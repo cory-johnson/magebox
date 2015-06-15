@@ -1,0 +1,11 @@
+commands:
+  N98\Magento\Command\Installer\InstallCommand:
+    magento-packages:
+      - name: magebox-retail.zyn.ca
+        version: devel
+        source:
+          url: ghttps://github.com/blakesaunders/ZYN.ca.git
+          type: git
+          reference: devel
+        extra:
+          sample-data: /vagrant/zyn/retail_daily_Wed-03AM.sql
